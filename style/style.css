@@ -1,0 +1,325 @@
+.container-centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px auto;
+    width: 800px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 40px -1px rgba(0, 0, 0, 0.23);
+}
+
+.header {
+    display: flex;
+    /* padding: 10px 20px 0px 20px; */
+    margin: 20px 20px 0px 20px;
+    width: auto;
+    height: 200px;
+
+}
+    .fio {
+        width: 70%;
+        padding: 10px;
+        margin: 20px 0px 0px 20px;
+        border-bottom: solid 3px #bdbdbd;
+    }
+
+        
+            h1.name {
+                display: block;
+                position: relative;
+                top: -20px;
+                font-family: 'Raleway', sans-serif;
+                font-size: 350%;
+                font-weight: 400;
+                color: #666666;
+}
+ 
+
+            h2.name {
+                display: block;
+                position: relative;
+                top: -60px;
+                left: 3px;
+                font-family: 'Raleway', sans-serif;
+                font-size: 350%;
+                font-weight: 900;
+                color: #565656;
+}
+
+            h3.name {
+                display: block;
+                position: relative;
+                top: -75px;
+                font-family: 'Raleway', sans-serif;
+                font-size: 150%;
+                font-weight: 100;
+                padding-left: 0px;
+
+            }
+
+    .photo-placement {
+        width: 30%;
+        padding: 10px;
+        margin: 20px 20px 0px 0px;
+        border-bottom: solid 3px #bdbdbd;
+    }
+        
+    
+        .img {
+            display: block;
+        width: 150px;
+        height: 150px;
+        margin-left: 60px;
+        position: relative;
+        top: -15px;
+        background: url(/resume/images/IMG_20230406_155756.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        border: solid 3px #a9a9a9;
+
+        }
+    
+
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 10px 10px 10px;
+    width: auto;
+    height: 800px;
+    margin: 0px 20px 20px 20px;
+}
+    .main-info {
+        width: 40%;
+        height: inherit;
+        border-right: solid 2px #a1a0a0;
+    }
+        section.contact {
+            display: block;
+            position: relative;
+            top: 20px;
+            left: 10px;
+            border: none 1px black;
+            width: 235px;
+            height: 155px;
+            font-weight: 300;
+
+        }
+            section h1 {
+                font-size: 28px;
+                font-variant: small-caps;
+                letter-spacing: 0.2em;
+                border-bottom: solid 1px #cccccc;
+                padding-bottom: 4px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 600;
+                color: rgb(114, 114, 114);
+                margin: 0px;
+            }
+
+            div.decoration {
+                width: 45px;
+                height: 3px;
+                background-color: #565656;
+                position: relative;
+                top: -2px;
+                margin-bottom: 10px;
+            }
+
+
+
+            a {
+                color: #565656;
+                text-decoration: none;
+            }
+
+            section p {
+                position: relative;
+                left: 40px;
+                top: -30px;
+                line-height: 30px;
+                color: #565656;
+            }
+
+            img.contact {
+                position: relative;
+                left: 10px;
+            }
+
+            img.email {
+                position: relative;
+                left: -10px;
+                top: 30px;
+            }
+
+            img.telegram {
+                position: relative;
+                left: -30px;
+                top: 61px;
+            }
+
+            
+
+        section.education {
+            display: block;
+            position: relative;
+            top: 20px;
+            left: 10px;
+            border: none 1px black;
+            width: 235px;
+            height: 220px;
+            font-weight: 200;
+
+        }
+            span.year {
+                font-weight: 100;
+                
+            }
+
+        section.skills {
+            display: block;
+            position: relative;
+            top: 30px;
+            left: 10px;
+            border: none 1px black;
+            width: 235px;
+            height: 220px;
+        }
+            .skills span {
+                font-weight: 200
+            }
+
+
+        section.languages {
+            display: block;
+            position: relative;
+            top: 65px;
+            left: 10px;
+            border: none 1px black;
+            width: 235px;
+            height: 220px;
+        }
+
+            .languages span {
+                font-weight: 200;
+            }
+
+    .info {
+        width: 60%;
+        height: inherit;
+
+    }
+
+        h1.info {
+            font-variant: normal;
+            letter-spacing: normal;
+            text-decoration: none;
+            border: none;
+            position: relative;
+            left: 30px;
+            top: 27px;
+            font-size: 21px;
+            margin-bottom: 60px;
+
+        }
+
+        .info p {
+            display: block;
+            text-align: justify;
+            font-size: 14px;
+            font-weight: 200;
+            line-height: 21px;
+            width: 90%;
+            margin-bottom: 10px;
+            position: relative;
+            left: 30px;
+            color: #181818;
+
+            
+            
+        }
+
+        h1.info-experience {
+            position: relative;
+            top: px;
+            left: 30px;
+            width: 60%;
+            padding-bottom: 0px;
+            
+        }
+
+        div.decoration.info {
+            position: relative;
+            left: 30px;
+            top: -2px;
+        }
+
+        .letter-spacing {
+            letter-spacing: 3px;
+        }
+
+        div.pending {
+            text-align: center;
+            position: relative;
+            top: 70px;
+            color: #bdbdbd;
+            font-size: 21px;
+        }
+.footer {
+    display: flex;
+    width: auto;
+    height: 50px;
+    background-color: #4b4a4a;
+
+}
+
+
+
+    footer a {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        left: 10px;
+        top: 10px;
+        width: 180px;
+        height: 30px;
+
+    }
+
+        div.footer-icon {
+            position: relative;
+            top: 2px;
+            left: 10px;
+            width: 25px;
+            height: 25px;
+            background: url(/resume/icons/github.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            margin: 0;
+
+    }
+
+        a p.footer-text {
+            position: relative;
+            vertical-align: middle;
+            top: 2px;
+            left: 20px;
+            color: #e6e6e6;
+            font-variant: normal;
+            width
+            
+    }
+
+    p.footer {
+        background-color: transparent;
+        position: relative;
+        top: 12px;
+        left: 542px;
+        height: 25px;
+        color: #e6e6e6;
+    }
