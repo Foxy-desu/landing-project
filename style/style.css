@@ -75,7 +75,7 @@
         margin-left: 60px;
         position: relative;
         top: -15px;
-        background: url(/images/IMG_20230406_155756.jpg);
+        background: url(../images/IMG_20230406_155756.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -296,7 +296,7 @@
             left: 10px;
             width: 25px;
             height: 25px;
-            background: url(/icons/github.svg);
+            background: url(../icons/github.svg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
